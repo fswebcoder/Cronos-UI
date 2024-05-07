@@ -1,15 +1,15 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-CronosUI',
+  selector: 'lib-cronos-icon',
   template: `
     <p>
-      cronos-ui works!
+      cronos-icon works!
     </p>
   `,
   styles: [
   ]
 })
-export class CronosUIComponent {
+export class CronosIconComponent {
 
 }

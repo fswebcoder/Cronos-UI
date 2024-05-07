@@ -1,4 +1,6 @@
 @charset 'UTF-8';
 
-@import 'general.scss';
+@import 'generals.scss';
 @import 'core.scss';
+@import 'topbar.scss';
+@import './components/button/button.scss'

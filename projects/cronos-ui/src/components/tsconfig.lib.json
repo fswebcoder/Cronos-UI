@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "module": "es2022",
+        "target": "es2022",
+        "baseUrl": ".",
+        "stripInternal": true,
+        "emitDecoratorMetadata": false,
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "outDir": "../../../",
+        "rootDir": ".",
+        "lib": [
+            "es2022",
+            "dom"
+        ],
+        "skipLibCheck": true,
+        "types": [],
+        "paths": {
+            "@cronosui/core/*": ["projects/cronos-ui/src/components/*/public_api.ts"],
+        }
+    },
+    "angularCompilerOptions": {
+        "annotateForClosureCompiler": false,
+        "strictMetadataEmit": true,
+        "skipTemplateCodegen": true,
+        "enableI18nLegacyMessageIdFormat": false,
+        "strictInjectionParameters": true,
+        "strictInputAccessModifiers": true,
+        "flatModuleOutFile": "cronosui.js",
+        "flatModuleId": "cronosui"
+    },
+    "files": [
+        "./public_api.ts"
+    ]
+}

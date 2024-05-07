@@ -3,9 +3,12 @@
   "compileOnSave": false,
   "compilerOptions": {
     "paths": {
-      "CronosUI": [
-        "dist/cronos-ui"
-      ]
+      "@cronosui/core/*": [
+        "projects/cronos-ui/src/components/*/public_api.ts"
+      ],
+      "cronos-icon": [
+        "dist/cronos-icon"
+      ],
     },
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
@@ -27,7 +30,8 @@
     "lib": [
       "ES2022",
       "dom"
-    ]
+    ],
+
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

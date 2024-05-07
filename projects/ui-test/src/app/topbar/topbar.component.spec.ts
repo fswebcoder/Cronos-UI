@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CronosUIComponent } from './cronos-ui.component';
+import { TopbarComponent } from './topbar.component';
 
-describe('CronosUIComponent', () => {
-  let component: CronosUIComponent;
-  let fixture: ComponentFixture<CronosUIComponent>;
+describe('TopbarComponent', () => {
+  let component: TopbarComponent;
+  let fixture: ComponentFixture<TopbarComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [CronosUIComponent]
+      declarations: [TopbarComponent]
     });
-    fixture = TestBed.createComponent(CronosUIComponent);
+    fixture = TestBed.createComponent(TopbarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

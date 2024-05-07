@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { CronosUIService } from './cronos-ui.service';
+import { CronosIconService } from './cronos-icon.service';
 
-describe('CronosUIService', () => {
-  let service: CronosUIService;
+describe('CronosIconService', () => {
+  let service: CronosIconService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(CronosUIService);
+    service = TestBed.inject(CronosIconService);
   });
 
   it('should be created', () => {

@@ -1,0 +1,41 @@
+{
+  "name": "@cronosui/core",
+  "version": "16.7.1",
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2022": "./esm2022/cronosui-core.mjs",
+      "esm": "./esm2022/cronosui-core.mjs",
+      "default": "./fesm2022/cronosui-core.mjs"
+    },
+    "./button": {
+      "types": "./button/index.d.ts",
+      "esm2022": "./esm2022/button/cronosui-core-button.mjs",
+      "esm": "./esm2022/button/cronosui-core-button.mjs",
+      "default": "./fesm2022/cronosui-core-button.mjs"
+    }
+  },
+  "module": "fesm2022/cronosui-core.mjs",
+  "typings": "index.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^16.2.0",
+    "@angular/common": "^16.2.0",
+    "@angular/forms": "^16.2.0",
+    "rxjs": "^6.0.0 || ^7.8.1",
+    "zone.js": "~0.13.0"
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}
