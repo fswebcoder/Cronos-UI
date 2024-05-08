@@ -1,1 +1,1 @@
-export type ButtonPosition = 'left' | 'right' | 'center';
+export type ButtonPosition = 'left' | 'right' | null ;

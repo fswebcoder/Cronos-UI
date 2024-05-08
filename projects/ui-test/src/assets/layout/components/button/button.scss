@@ -1,5 +1,174 @@
-.cronos-btn{
-    padding: 1rem;
-    border-radius: 10px;
-    border: none;
+.cronos-btn {
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  &.btn-primary {
+    background-color: var(--color-primario);
+    color: var(--text-white);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    .cron-icon {
+      color: var(--text-white);
+      font-size: 1.2rem;
+      margin: 1px;
+    }
+
+    &:hover {
+      filter: brightness(110%);
+    }
+  }
+  &.btn-secondary {
+    background-color: var(--color-secundario);
+    color: var(--text-white);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+    .cron-icon {
+      color: var(--text-white);
+      font-size: 1.2rem;
+      margin: 1px;
+    }
+
+    &:hover {
+      filter: brightness(110%);
+    }
+  }
+
+    &.btn-success {
+        background-color: var(--success);
+        color: var(--text-white);
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    
+        .cron-icon {
+            color: var(--text-white);
+            font-size: 1.2rem;
+            margin: 1px;
+        }
+    
+        &:hover {
+        filter: brightness(110%);
+        }
+    }
+
+    &.btn-warning {
+        background-color: var(--warning);
+        color: var(--text-white);
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    
+        .cron-icon {
+            color: var(--text-white);
+            font-size: 1.2rem;
+            margin: 1px;
+        }
+    
+        &:hover {
+        filter: brightness(110%);
+        }
+    }
+
+    &.btn-danger {
+        background-color: var(--danger);
+        color: var(--text-white);
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    
+        .cron-icon {
+            color: var(--text-white);
+            font-size: 1.2rem;
+            margin: 1px;
+        }
+    
+        &:hover {
+        filter: brightness(110%);
+        }
+    }
+}
+
+cronos-ui-button[size="small"] {
+  button {
+    display: flex;
+    justify-content: center;
+    align-self: start;
+    align-items: center;
+    padding: 0.4rem;
+    cron-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      i {
+        color: var(--color-primario);
+      }
+    }
+  }
+}
+
+cronos-ui-button[size="medium"] {
+  button {
+    display: flex;
+    justify-content: center;
+    align-self: start;
+    align-items: center;
+    padding: 0.7rem;
+    cron-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      i {
+        color: var(--color-primario);
+      }
+    }
+  }
+}
+
+cronos-ui-button[size="large"] {
+  button {
+    display: flex;
+    justify-content: center;
+    align-self: start;
+    align-items: center;
+    padding: 1.1rem;
+    cron-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      i {
+        color: var(--color-primario);
+      }
+    }
+  }
+}
+
+cronos-ui-button[showicon="true"] {
+  &[iconPosition="left"] {
+    button {
+      display: flex;
+      justify-content: center;
+      align-self: start;
+      align-items: center;
+      cron-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        i {
+          color: var(--color-primario);
+        }
+      }
+    }
+  }
+  &[iconPosition="right"] {
+    button {
+      display: flex;
+      flex-direction: row-reverse;
+      cron-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        i {
+          color: var(--color-primario);
+        }
+      }
+    }
+  }
 }

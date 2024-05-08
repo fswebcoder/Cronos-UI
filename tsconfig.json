@@ -6,9 +6,7 @@
       "@cronosui/core/*": [
         "projects/cronos-ui/src/components/*/public_api.ts"
       ],
-      "cronos-icon": [
-        "dist/cronos-icon"
-      ],
+      "@cronos/icons/*": ["projects/cronos-icon/src/components/*/public_api.ts"],
     },
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",

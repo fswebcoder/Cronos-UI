@@ -143,14 +143,14 @@
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/cronos-icon/ng-package.json"
+            "project": "projects/cronos-icon/src/components/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/cronos-icon/tsconfig.lib.prod.json"
+              "tsConfig": "projects/cronos-icon/src/components/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/cronos-icon/tsconfig.lib.json"
+              "tsConfig": "projects/cronos-icon/src/components/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"

@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "build-library": "ng build CronosUI" 
+    "build-library": "ng build CronosUI",
+    "build-libraryicons": "ng build cronos-icon" 
   },
   "private": true,
   "dependencies": {
