@@ -21,6 +21,7 @@
       filter: brightness(110%);
     }
   }
+
   &.btn-secondary {
     background-color: var(--color-secundario);
     color: var(--text-white);
@@ -83,6 +84,9 @@
         &:hover {
         filter: brightness(110%);
         }
+    }
+    &.btn-rounded{
+        border-radius: 50%;
     }
 }
 
