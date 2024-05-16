@@ -6,6 +6,7 @@ module.exports = {
     "./libs/**/*.{html,ts}",
     "./projects/cronos-ui/**/*.{html,ts}",
     "./projects/ui-test/**/*.{html,ts}",
+    "./projects/cronos-ui/src/components/**/*.{html,ts}",
   ],
   theme: {
     extend: {
